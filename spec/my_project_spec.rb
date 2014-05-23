@@ -1,0 +1,2 @@
+describe 'MyProject' do
+end
