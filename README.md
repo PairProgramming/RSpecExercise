@@ -64,15 +64,15 @@ Finished in 0.00004 seconds
 
 You should see output like this:
 
-`# On branch master
-#
-# Initial commit
-#
-# Changes to be committed:
-#   (use "git rm --cached <file>..." to unstage)
-#
-# new file:   spec/my_project_spec.rb
-`
+`# On branch master`
+`#`
+`# Initial commit`
+`#`
+`# Changes to be committed:`
+`#   (use "git rm --cached <file>..." to unstage)`
+`#`
+`# new file:   spec/my_project_spec.rb`
+
 13) Driver [Dev B]; commit the staged change to the git repository
 
 `git commit -m 'first step on our new project'`
