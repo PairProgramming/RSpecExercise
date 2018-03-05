@@ -92,7 +92,7 @@ it 'should be awesome'
 
 16) Driver [Dev B]; run `rspec` and confirm the output is like the following:
 
-`MyProject
+```MyProject
   should be awesome (PENDING: Not yet implemented)
 
 Pending:
@@ -101,7 +101,7 @@ Pending:
     # ./spec/my_project_spec.rb:2
 
 Finished in 0.00023 seconds
-1 example, 0 failures, 1 pending`
+1 example, 0 failures, 1 pending```
 
 17) Switch Driver/Navigator Roles&nbsp;:twisted_rightwards_arrows:
 
@@ -115,7 +115,7 @@ end
 
 19) Driver [Dev A]; run `rspec` and confirm that you get output like the following:
 
-`MyProject
+```MyProject
   should be awesome (FAILED - 1)
 
 Failures:
@@ -132,7 +132,7 @@ Finished in 0.00376 seconds
 Failed examples:
 
 rspec ./spec/my_project_spec.rb:2 # MyProject should be awesome
-`
+```
 
 20) Switch Driver/Navigator Roles&nbsp;:twisted_rightwards_arrows:
 
@@ -183,13 +183,13 @@ expect(are_you_awesome?).to be_true
 
 30) Driver [Dev B]; run `rspec` and confirm you get a test failure like the following:
 
-`
+```
 1) MyProject should be awesome
      Failure/Error: expect(are_you_awesome?).to be_true
        expected: true value
             got: nil
      # ./spec/my_project_spec.rb:5:in `block (2 levels) in <top (required)>'
-`
+```
 
 31) Switch Driver/Navigator Roles&nbsp;:twisted_rightwards_arrows:
 
@@ -203,11 +203,11 @@ end
 
 33) Driver [Dev A]; Run `rspec` to confirm that the test passes, e.g.  
 
-`MyProject
+```MyProject
   should be awesome
 
 Finished in 0.00142 seconds
-1 example, 0 failures`
+1 example, 0 failures```
 
 34) Driver [Dev A]; commit the change to the git repository
 
